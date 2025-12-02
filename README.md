@@ -1,1 +1,2 @@
-
+# Project overview
+This project explores how attackers evade network defenses such as firewalls, Intrusion Detection Systems (IDS), and Intrusion Prevention Systems (IPS), and how defenders can detect and mitigate these techniques. The work is carried out in a controlled lab using virtual machines, open‑source IDS/IPS and firewall solutions, and common offensive tools to simulate realistic attack and defense scenarios.
