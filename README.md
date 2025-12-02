@@ -5,7 +5,7 @@
 
 This repository documents the installation and configuration of the **Wazuh OVA appliance** in a lab environment, including manager setup, dashboard access, and agent registration.
 
----
+
 
 
 ## Requirements
@@ -29,16 +29,16 @@ This repository documents the installation and configuration of the **Wazuh OVA 
 
 
 
----
+
 
 ## Environment
 
 - Wazuh virtual machine image
----
 
 
 
-## Download OVA
+
+### Download OVA
 
 Download the latest OVA from the official Wazuh GitHub release page:
 
@@ -47,7 +47,7 @@ https://github.com/wazuh/wazuh/releases
 wazuh-4.8.2.ova
 ```
 
-## Deploy OVA
+### Deploy OVA
 
 
 
@@ -59,12 +59,12 @@ wazuh-4.8.2.ova
 
 
 
----
+
 
 ## First Boot & Login
 
 
-<summary>Click to expand</summary>
+
 
 The VM will display:
 
@@ -78,7 +78,7 @@ Password: admin
   ### Recommended: Set Static IP
 
 
-<summary>Click to expand</summary>
+
 
 ### Step 1: Check Current IP
 
@@ -111,8 +111,8 @@ sudo netplan apply
 
 Once the Wazuh OVA is deployed and agents are connected, you should see the dashboard similar to the screenshot below:
 
-![Wazuh Dashboard](images/wazuh_dashboard.png)
-
+![Wazuh Dashboard](IDS/dash.png)
+![Wazuh Dashboard](IDS/wazuh.png)
 
 
 
